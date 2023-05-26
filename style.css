@@ -1,0 +1,219 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color:none;
+}
+
+.cabecalho{
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.5);
+	height:100px;
+	display: flex;
+	
+}
+
+.logo_branca{
+	width:150px;
+	margin:25px;
+}
+
+.mainlogobranca{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mainbutton{
+	display: flex;
+	align-items: center;
+	width: 100%;
+    justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+    .mainbutton {
+        width: 90%;
+        max-width: none;
+    }
+}
+
+
+.mainfds{
+	width:100%;
+	border:0;
+}
+
+.login-button {
+	min-width:0px;
+    padding: 10px 60px;
+    background-color: #015bac;
+    color: #fff;
+    border: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #00008B;
+}
+
+.login-button:active {
+    background-color: #0000FF;
+}
+
+@media (max-width: 768px) {
+    .login-button {
+        padding: 5px 30px;
+        font-size: 0.8em;
+    }
+}
+
+.divbuttonlogin{
+	margin:20px;
+}
+
+.inscrever-button {
+    padding: 10px 60px;
+    background-color: transparent;
+    color: #fff;
+    border: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	border-color:white;
+	border: 1px solid white;
+}
+
+.inscrever-button:hover {
+    background-color: rgba(0, 0, 0, 0.1) ;
+}
+
+.inscrever-button:active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .inscrever-button {
+        padding: 5px 25px;
+        font-size: 0.8em;
+    }
+}
+
+.rodape{
+	background-color:#015bac;
+	width:100%;
+	height:80px;
+	display: flex;
+}
+
+.mainDireios{
+	font-family:arial;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	width:100%;
+}
+
+.fontdireitos{
+	color:rgba(255,255,255);
+	font-size:20px;
+	margin-left:20px;
+}
+
+@media (max-width: 600px) {
+    .fontdireitos {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+}
+
+.mainlogobracafooter{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	width:auto;
+}
+
+.logo_branca2{
+	width:80px;
+	margin:24px;
+	margin-right:100px;
+}
+
+.corpo{
+	display: flex;
+	justify-content: center;
+	height:600px;
+	width: 100%;
+	align-items:center;
+}
+
+.sectionCorpo{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height:400px;
+	width:600px;
+	background-color:#015bac;
+	border-radius:20px;
+	padding:40px;
+}
+
+.fontcorpo{
+	  font-size:20px;  
+	  color:white;
+  }
+
+.mainbutton2{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.botoes{
+	background-color:#778899;
+	border-radius: 15px;
+	color:white;
+	border:50px;
+	width: 285px;
+	height: 40px;
+	max-width: 385px;
+	max-height:200px;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+ 	position: relative;
+}
+
+.botoes::after {
+	content: "";
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 15px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+  }
+
+  .botoes:hover::after {
+	opacity: 1;
+  }
+  
+  .botoes:active {
+	transform: translateY(2px);
+  }
+  
+  .botoes:active::after {
+	opacity: 0;
+  }
+  
+ .divBUttonsCorpo{
+	margin:20px;  
+  }
+  
